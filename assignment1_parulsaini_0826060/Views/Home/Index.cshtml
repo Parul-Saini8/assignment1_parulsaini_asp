@@ -1,0 +1,70 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Imperial Rulers</h1>
+</div>
+<style>
+
+    .display-4 {
+        font-family: 'Young Serif', serif;
+    }
+
+    body {
+        background-color: azure;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .product {
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        margin: 10px;
+        padding: 20px;
+        text-align: center;
+        display: inline-block;
+        width: 30%;
+    }
+
+        .product img {
+            width: 200px;
+            height: 200px;
+        }
+
+        .product h2 {
+            font-size: 1.5rem;
+            margin: 10px 0;
+        }
+
+        .product p {
+            font-size: 1rem;
+            margin: 10px 0;
+        }
+</style>
+
+<div class="container">
+    <div class="product">
+        <img src="~/img/ruler.jpeg" alt="Product 1">
+        <h2>DOMS</h2>
+        <p>Price: $14.99</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="~/img/stretch.jpeg" alt="Product 2">
+        <h2>Natraj</h2>
+        <p>Price: $19.99</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="~/img/wood.jpeg" alt="Product 3">
+        <h2>Pro Measure</h2>
+        <p>Price: $24.99</p>
+        <button>Add to Cart</button>
+    </div>
+</div>
+
